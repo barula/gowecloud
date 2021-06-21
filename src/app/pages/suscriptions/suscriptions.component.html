@@ -1,0 +1,26 @@
+<div class="container mt-5">
+  <h1>Suscriptions</h1>
+  <p class="mb-5">
+Listado de Suscripciones
+  </p>
+  <div *ngIf="suscriptions">
+    <table style="padding: 20px; width: 90%;">
+      <tr>
+        <th  align="left">Customer</th>
+        <th  align="left">Suscription</th>
+        <th  align="left">Expire</th>
+        <th  align="left">Product</th>
+        <th  align="left">Status</th>
+      </tr>
+      <tr *ngFor="let item of suscriptions">
+        <td>{{item.customerId}}</td>
+        <td>{{item.businessId}}</td>
+        <td>{{item.expiretime}}</td>
+        <td>{{item.productid}}</td>
+        <td>{{item.status}}</td>
+      </tr>
+  </table>
+ </div>
+
+
+</div>

@@ -1,0 +1,1 @@
+Domain=https://gowecloud.com/market&Domain Owner=0a97e73f6e80f5fe0f5cc00459ad2360&Create Time=2020-12-10 22:14:10&Verifier=Huawei Cloud Marketplace&SignType=HMAC-SHA256&Signature=0hmmU2kgUp9XYPX7jMKhTVEakETw/p8c7cONcmmK8Ks=
